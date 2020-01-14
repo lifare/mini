@@ -4,7 +4,7 @@ import hbs from "express-handlebars";
 import cookieParser from "cookie-parser";
 
 const rootDir = process.cwd();
-const port = 3000;
+const port = 80;
 const app = express();
 
 // Выбираем в качестве движка шаблонов Handlebars
