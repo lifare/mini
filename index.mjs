@@ -21,7 +21,6 @@ app.engine(
 );
 
 app.get("/", (req, res) => {
-  res.sendFile(path.join(rootDir, "/static/html/index.html"));
   console.log(JSON.stringify(req.headers));
 });
 
